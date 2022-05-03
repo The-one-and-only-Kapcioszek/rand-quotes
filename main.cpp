@@ -57,7 +57,7 @@ int main()
     }
  
     srand(time(0));             //choosing random quote
-    int random = rand()%5;
+    int random = rand()%i;
 
     cout<<"Quote for today > "<<endl<<endl<<quotes[random]<<endl<<endl; //displaying quote
 
